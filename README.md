@@ -1,12 +1,12 @@
-# Naive Implementation of Grep for Learning Rust Basics
+# Naive Grep for Learning Rust Basics
 
 ### Run:
-rust```
+```
 $ cargo run duct poem.txt
 ```
 
 ### Test:
-rust```
+```
 $ cargo test
 ```
 
