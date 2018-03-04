@@ -19,8 +19,9 @@ fn parse_config(args: &[String]) -> (&str, &str) {
     match args.len() == 3 {
         true => {
             let query = &args[1];
-            let search_term = &args[2];
-            println!("Query Target: {:?}, Search For: {:?}", query, search_term);
+            let filename = &args[2];
+            println!("Query Target: {:?}, Search For: {:?}", query, filename);
+            return (query, filename);
         }
         _ => panic!("Please provide exactly one file to query and one term to search for"),
     };
