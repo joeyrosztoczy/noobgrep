@@ -1,9 +1,6 @@
 [package]
-name = "noobgrep"
+name = "search"
 version = "0.1.0"
 authors = ["Joey Rosztoczy"]
 
 [dependencies]
-search = { path = "search" }
-
-[workspaces]

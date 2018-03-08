@@ -1,6 +1,6 @@
-extern crate noobgrep;
+extern crate search;
 
-use noobgrep::Config;
+use search::Config;
 
 use std::env;
 use std::process;
@@ -12,7 +12,7 @@ fn main() {
         process::exit(1);
     });
 
-    if let Err(e) = noobgrep::run(config) {
+    if let Err(e) = search::run(config) {
         eprintln!("Application error: {}", e);
 
         process::exit(1);

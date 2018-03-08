@@ -1,4 +1,11 @@
 [[package]]
 name = "noobgrep"
 version = "0.1.0"
+dependencies = [
+ "search 0.1.0",
+]
+
+[[package]]
+name = "search"
+version = "0.1.0"
 
